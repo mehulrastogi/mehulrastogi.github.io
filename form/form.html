@@ -2,21 +2,25 @@
 <html>
 
 <head>
-    <title>Form</title>
-    <link type="text/css" rel="stylesheet" href="./style.css" />
-    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:800' rel='stylesheet' type='text/css'>
+    <title>JavaScript Form Demo</title>
+    <link rel="stylesheet" href="./form.css">
 </head>
 
 <body>
+
     <div id="container">
-        <form>
-            <p><input type="text" class="box" value="ENTER USERNAME" id="username" /></p>
-            <p><input type="password" class="box" value="ENTER PASSWORD" id="pass" /></p>
-            <p style="text-align:left"><input type="submit" id="button" /></p>
+        <form action="signup.html" method="post" id="signup">
+            <h1>Enter Coupon Code</h1>
+            <small></small>
+            
+            <small></small>
+            <input type="text" placeholder="Coupon Code">
+            <input type="submit" value="Submit">
+            
         </form>
     </div>
-    <script type="text/javascript" src="script.js"></script>
+
+    <script src="./form.js"></script>
 </body>
 
 </html>
